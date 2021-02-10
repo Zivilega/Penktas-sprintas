@@ -1,3 +1,24 @@
+
+
+1. Nukopijuoti visa aplikacijos folderi i AMpps->www direktorija (arba atitinkama kito WEB serverio root'a)
+
+2. DB prisijungimai yra standartiniai (.env faile). Jei MySQL serverio prisijungimai - kitokie, reikia pakoreguoti .emv faila.
+
+3. Sukurti MySQL'e DB pavadinimu "travelsite"
+
+4. Paleisti DB migracija is CommandLine'o (esant aplikacijos): php artisan migrate
+
+5. Paleidziam DB seed is CommandLine'o (esant aplikacijos folderyje): php artisan db:seed --class=UserSeeder
+
+6. Atidarom narsykleje: http://localhost/travelsite-Demo/public/ (prisijungimas: test@test.lt; pswd: test) 
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
@@ -26,6 +47,13 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+
+
+
+
+
+
 
 ## Laravel Sponsors
 
